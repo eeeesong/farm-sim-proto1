@@ -101,11 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d5ffc96f0e341ccb28f5ce18c20657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plantSprites:
-  - {fileID: 952329663, guid: 8f0b14b20b68b48bebe07b4201c8dfa2, type: 3}
-  - {fileID: -807187851, guid: 8f0b14b20b68b48bebe07b4201c8dfa2, type: 3}
-  - {fileID: 1866231172, guid: 8f0b14b20b68b48bebe07b4201c8dfa2, type: 3}
-  - {fileID: 200880096, guid: 8f0b14b20b68b48bebe07b4201c8dfa2, type: 3}
+  selectedPlant: {fileID: 11400000, guid: d94ad62cd26a54fa2862c1bcfc37d0f5, type: 2}
 --- !u!60 &8497247746597690473
 PolygonCollider2D:
   m_ObjectHideFlags: 0
