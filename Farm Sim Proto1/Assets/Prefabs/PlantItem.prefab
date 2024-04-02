@@ -132,6 +132,8 @@ MonoBehaviour:
   nameText: {fileID: 5950355687749022928}
   priceText: {fileID: 4100079151186184425}
   icon: {fileID: 3382445151713938012}
+  buttonImage: {fileID: 3485899744005227542}
+  buttonText: {fileID: 9175980210508593923}
 --- !u!1 &5619872342979469872
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -505,7 +507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.073724434, g: 0.1509434, b: 0.05197579, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.016851187, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

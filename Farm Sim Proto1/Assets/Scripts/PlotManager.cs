@@ -7,19 +7,21 @@ public class PlotManager : MonoBehaviour
     private bool isPlanted;
 
     private SpriteRenderer plant;
-    [SerializeField] private PlantObject selectedPlant;
+    private PlantObject selectedPlant;
     private BoxCollider2D plantCollider;
 
     private int plantStage;
     private float timer;
 
     private FarmManager fm;
+    private SpriteRenderer plot;
 
     private void Start()
     {
         plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
         plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
         fm = FindObjectOfType<FarmManager>();
+        plot = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -49,6 +51,22 @@ public class PlotManager : MonoBehaviour
         {
             Plant(fm.selectedPlant);
         }
+    }
+
+    private void OnMouseOver()
+    {
+        if (isPlanted)
+        {
+            plot.color = Color.red;
+        } else if (selectedPlant != null)
+        {
+            plot.color = Color.green;
+        }
+    }
+
+    private void OnMouseExit()
+    {
+        plot.color = Color.white;
     }
 
     private void Harvest()

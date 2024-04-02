@@ -11,6 +11,9 @@ public class PlantItem : MonoBehaviour
     [SerializeField] private Text priceText;
     [SerializeField] private Image icon;
 
+    public Image buttonImage;
+    public Text buttonText;
+
     private FarmManager fm;
 
     void Start()
@@ -24,7 +27,6 @@ public class PlantItem : MonoBehaviour
 
     public void Buy()
     {
-        Debug.Log("Buy" + plantData.name);
         fm.Select(this);
     }
 }

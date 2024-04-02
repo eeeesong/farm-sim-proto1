@@ -21,19 +21,32 @@ public class FarmManager : MonoBehaviour
         {
             selectedPlant = null;
             isPlanting = false;
+            newPlant.buttonImage.color = Color.green;
+            newPlant.buttonText.text = "Buy";
         } else
         {
             int price = newPlant.plantData.price;
 
             if (money >= price)
             {
+                if (selectedPlant != null)
+                {
+                    selectedPlant.buttonImage.color = Color.green;
+                    selectedPlant.buttonText.text = "Buy";
+                }
+
                 Transaction(-price);
                 selectedPlant = newPlant;
                 isPlanting = true;
+
+                selectedPlant.buttonImage.color = Color.red;
+                selectedPlant.buttonText.text = "Cancel";
             } else
             {
                 Debug.Log("no money!");
             }
+
+
         }
     }
 

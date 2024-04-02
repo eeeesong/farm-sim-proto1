@@ -128,6 +128,54 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7930679288752215689, guid: ad3a972cfa9724aafaa046abaae8eb44, type: 3}
   m_PrefabInstance: {fileID: 871111622}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &108251800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108251802}
+  - component: {fileID: 108251801}
+  m_Layer: 0
+  m_Name: FarmManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &108251801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108251800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689fe9a3edcf54b91b1dfec51d656d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedPlant: {fileID: 0}
+  isPlanting: 0
+  money: 0
+  moneyText: {fileID: 1818205405}
+--- !u!4 &108251802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108251800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 635.9063, y: 301.63275, z: -0.3476492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &247838783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,3 +1822,4 @@ SceneRoots:
   - {fileID: 1370800432}
   - {fileID: 247838787}
   - {fileID: 1593837318}
+  - {fileID: 108251802}
