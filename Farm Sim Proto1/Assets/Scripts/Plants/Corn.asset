@@ -20,3 +20,4 @@ MonoBehaviour:
   - {fileID: 1866231172, guid: 8f0b14b20b68b48bebe07b4201c8dfa2, type: 3}
   - {fileID: 200880096, guid: 8f0b14b20b68b48bebe07b4201c8dfa2, type: 3}
   timeBtwStages: 0.5
+  plantIcon: {fileID: -1044700456, guid: 8f0b14b20b68b48bebe07b4201c8dfa2, type: 3}

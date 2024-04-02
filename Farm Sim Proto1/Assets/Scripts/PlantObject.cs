@@ -9,4 +9,5 @@ public class PlantObject : ScriptableObject
     public int price;
     public Sprite[] plantStages;
     public float timeBtwStages;
+    public Sprite plantIcon;
 }
