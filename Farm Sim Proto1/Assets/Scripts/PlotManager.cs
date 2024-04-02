@@ -55,6 +55,7 @@ public class PlotManager : MonoBehaviour
     {
         isPlanted = false;
         plant.gameObject.SetActive(false);
+        fm.Transaction(selectedPlant.price);
     }
 
     private void Plant(PlantItem newPlant)
