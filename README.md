@@ -24,3 +24,10 @@ plantObjects.Sort(SortByPrice);
 ```
 
 Write sort rule in int return method, and use it as param
+
+
+
+
+https://github.com/eeeesong/farm-sim-proto1/assets/72188416/e1edcba7-68de-493e-b57f-dfd07d48a2f2
+
+
